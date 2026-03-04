@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kitchen Client - Cafe Orders</title>
+  <link rel="stylesheet" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div id="login-panel">
+    <h1>Kitchen Login</h1>
+    <form id="login-form">
+      <label>Staff name: <input type="text" id="login-name" required></label><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="app-panel" style="display:none;">
+    <h1>Kitchen Interface</h1>
+    <div style="text-align:right; margin-bottom:10px;">
+      <span id="user-display"></span>
+      <button id="logout-btn">Logout</button>
+    </div>
+    <ul id="orders-list"></ul>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/kitchen.js"></script>
+</body>
+</html>

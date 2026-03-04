@@ -1,0 +1,25 @@
+{
+  "name": "cafe-order-system",
+  "version": "1.0.0",
+  "description": "Simple café ordering system with service and kitchen interfaces",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "mysql2": "^3.8.0",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "",
+  "license": "MIT"
+}
